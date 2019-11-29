@@ -1,5 +1,5 @@
-docker-compose.yml
-dump.sh
-restore.sh
+/docker-compose.yml
+/dump.sh
+/restore.sh
 /data
 /backups
