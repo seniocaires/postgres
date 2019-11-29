@@ -32,7 +32,7 @@ echo "# Iniciar o ambiente" >> docker-compose.yml
 echo "# docker-compose -p "${AMBIENTE}" up -d " >> docker-compose.yml
 echo ""  >> docker-compose.yml
 echo "# Remover o ambiente"  >> docker-compose.yml
-echo "# docker-compose down"  >> docker-compose.yml
+echo "# docker-compose -p "${AMBIENTE}" down"  >> docker-compose.yml
 
 
 echo "Configurando arquivo dump.sh"
